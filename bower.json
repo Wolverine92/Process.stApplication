@@ -1,0 +1,26 @@
+{
+  "name": "ng-process.st",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "Aniello Falcone <aniellofalcone92@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "underscore": "^1.8.3",
+    "angular-sanitize": "^1.6.0",
+    "angular": "^1.6.0",
+    "angular-moment": "^1.0.1"
+  },
+  "devDependencies": {
+    "angular-underscore-module": "^1.0.3"
+  }
+}

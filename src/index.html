@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Abel|Amatic+SC|Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <!-- compiled CSS -->
+        <link rel="stylesheet" type="text/css" href="app/css/main.css"/>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.css">
+        <link rel="stylesheet" src="bower_components/angular-mass-autocomplete/massautocomplete.theme.css">
+
+        <!-- jQuery UI CSS -->
+        <link data-require="jqueryui@*" data-semver="1.10.0" rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.0/css/smoothness/jquery-ui-1.10.0.custom.min.css" />
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+        <!--Styles for File Uploader Plugin -->
+        <link rel="stylesheet" href="http://blueimp.github.io/jQuery-File-Upload/css/jquery.fileupload.css" />
+        <link rel="stylesheet" href="http://blueimp.github.io/jQuery-File-Upload/css/jquery.fileupload-ui.css" />
+
+        <!-- Compiled Javascript -->
+        <script data-require="jquery@*" data-semver="2.1.4" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script data-require="jqueryui@*" data-semver="1.10.0" src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.0/jquery-ui.js"></script>
+        <script data-require="angular.js@*" data-semver="1.5.3" src="https://code.angularjs.org/1.5.3/angular.js"></script>
+        <script data-require="angular-route@1.4.0" data-semver="1.4.0" src="https://code.angularjs.org/1.4.0/angular-route.js"></script>
+
+        <script src="https://angular-file-upload.appspot.com/js/ng-file-upload-shim.js"></script> <!-- for no html5 browsers support -->
+        <script src="https://angular-file-upload.appspot.com/js/ng-file-upload.js"></script>
+
+        <!-- The Load Image plugin is included for the preview images and image resizing functionality -->
+        <script src="//blueimp.github.io/JavaScript-Load-Image/js/load-image.all.min.js"></script>
+        <!-- The Canvas to Blob plugin is included for image resizing functionality -->
+        <script src="//blueimp.github.io/JavaScript-Canvas-to-Blob/js/canvas-to-blob.min.js"></script>
+        <!-- The Iframe Transport is required for browsers without support for XHR file uploads -->
+        <script src="https://rawgit.com/blueimp/jQuery-File-Upload/master/js/jquery.iframe-transport.js"></script>
+        <!-- The basic File Upload plugin -->
+        <script src="http://blueimp.github.io/jQuery-File-Upload/js/jquery.fileupload.js"></script>
+        <!-- The File Upload processing plugin -->
+        <script src="http://blueimp.github.io/jQuery-File-Upload/js/jquery.fileupload-process.js"></script>
+        <!-- The File Upload image preview & resize plugin -->
+        <script src="http://blueimp.github.io/jQuery-File-Upload/js/jquery.fileupload-image.js"></script>
+        <!-- The File Upload validation plugin -->
+        <script src="http://blueimp.github.io/jQuery-File-Upload/js/jquery.fileupload-validate.js"></script>
+        <!-- The File Upload Angular JS module -->
+        <script src="http://blueimp.github.io/jQuery-File-Upload/js/jquery.fileupload-angular.js"></script>
+
+
+        <!-- Custom JS files -->
+        <script src="app/js/app.js"></script>
+        <script src="app/templates/mainPage/mainCtrl.js"></script>
+        <script src="app/templates/cover/toolbarCtrl.js"></script>
+        <script src="app/components/uploaderComponent/fileDestroyCtrl.js"></script>
+        <script src="app/components/uploaderComponent/uploaderCtrl.js"></script>
+        <script src="app/components/uploaderComponent/uploader.js"></script>
+        <script src="app/js/services/services.js"></script>
+
+        <title ng-controller="mainController">Process.St</title>
+        <!-- endcode -->
+
+    </head>
+    <link href="/assets/media/Icons/favicon.ico" rel="icon" type="image/x-icon"/>
+    <body ng-app="ng-process.st">
+        <div ng-view></div>
+    </body>
+
+</html>

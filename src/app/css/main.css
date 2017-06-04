@@ -1,0 +1,198 @@
+/*
+normal: #76FF03;
+hover: rgb(145, 184, 39);
+*/
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+    display: none !important;
+}
+
+h1 {
+    color: #FFF;
+    font-family: 'Amatic SC', cursive;
+    font-size: 72px;
+    line-height: 60px;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+h2 {
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+    font-size: 42px;
+    font-weight: 300;
+    text-align: center;
+}
+
+h3 {
+    color: #14213D;
+    font-family: 'Abel', sans-serif;
+    font-size: 28px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+h4 {
+    color: rgb(145, 184, 39);
+    font-family: 'Abel', sans-serif;
+    font-size: 24px;
+    margin: 0px 0px 50px 0px;
+}
+
+p {
+    color: #333;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+html {
+    background-color: black;
+}
+
+body {
+    background-color: #76FF03 !important;
+    margin: 0;
+    padding: 0;
+    width: 100% !important;
+}
+
+.book-details-background {
+    background-color: transparent !important;
+}
+
+.cover-background {
+    background-color: black !important;
+}
+
+.transparent {
+    background-color: transparent !important;
+}
+
+#cover {
+    height: 1000px !important;
+    position: relative !important;
+    top: -70px !important;
+    width: 100% !important;
+    background: url("/assets/media/cover.jpg") no-repeat top center !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+}
+
+.cover-content-h1 {
+    color: #76FF03;
+    font-size: 100px;
+    text-shadow: 2px 2px #000;
+}
+
+.cover-content-h2 {
+    color: #76FF03;
+    text-shadow: 2px 2px #000;
+}
+
+#cover-details {
+    height: 600px !important;
+    position: relative !important;
+    background: url("/assets/media/cover.jpg") no-repeat top center !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    width: 80%;
+    border-radius: 25px;
+    text-shadow: 2px 2px #000;
+}
+
+.cover-details-content {
+    padding-top: 6vh;
+}
+
+.navigation {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    overflow-y: auto !important;
+    position: fixed !important;
+    left: 0 !important;
+    top: 0 !important;
+    text-align: left !important;
+    width: 100% !important;
+    z-index: 10000 !important;
+}
+
+#logo {
+    color: #76FF03;
+    font-family: 'Amatic SC', cursive;
+    font-size: 60px;
+    box-sizing: border-box;
+    margin: 0 auto !important;
+    position: relative;
+    text-align: left;
+    width: 20%;
+    left: 50px;
+}
+
+.center {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.cover-content {
+    position: relative;
+    top: 300px;
+}
+
+.cover-back {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: inherit;
+    margin: 0 auto;
+}
+
+.upload-buttons {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.action-button {
+  color: #76FF03 !important;
+  /*width: 70px;*/
+  padding: 2px;
+  margin: 20px;
+  text-align: center;
+  float: none;
+  border: 1px solid;
+  background-color: transparent !important;
+}
+
+.action-button:hover {
+  color: white !important;
+  border: 1px solid #76FF03;
+  outline: none !important;
+}
+
+.add-btn:hover {
+  background-color: #5cb85c !important;
+}
+
+.cancel-btn:hover {
+  background-color: #f0ad4e !important;
+}
+
+.start-btn:hover {
+  background-color: #428bca !important;
+}
+
+.progress-margin {
+  margin-top: 50px !important;
+}
+
+.progress-bar {
+  background-color: #76FF03 !important;
+}
+
+.progress {
+  margin-top: 50px;
+}
+
+.white {
+  color: white
+}

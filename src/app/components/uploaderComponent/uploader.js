@@ -5,10 +5,7 @@ angular.module("ng-process.st")
   controller  : 'uploaderController',
   controllerAs: 'upld',
   bindings    : {
-    files       : '&',
     file        : '&',
-    options     : '&',
-    requestData : '&',
     progressPercentageStyle : '&'
   }
 });

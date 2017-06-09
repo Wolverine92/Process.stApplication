@@ -4,11 +4,13 @@ angular.module("ng-process.st.controllers")
 
   // upload later on form submit or something similar
   $scope.submit = function() {
+      
     if ($scope.file) {
       $scope.upload($scope.file);
       console.log($scope.file.name);
       $scope.fileName = $scope.file.name;
     }
+      
   };
 
   // upload on file select or drop
@@ -16,8 +18,8 @@ angular.module("ng-process.st.controllers")
 
     var videoUrl    = 'http://fast.wistia.net/embed/iframe/';
       Upload.upload({
-          url: 'https://upload.wistia.com',
-          data: {
+          url           : 'https://upload.wistia.com',
+          data          : {
             file        : file,
             api_password: '125d3809eead7c23db745e43f082ca7d8a119c3dcb450ad1d9a97b7be78a484d'
           },
@@ -43,6 +45,7 @@ angular.module("ng-process.st.controllers")
           console.log('progress: ' + self.progressPercentage + '% ' + evt.config.data.file.name);
       });
   };
+    
   // for multiple files:
   $scope.uploadFiles = function (files) {
 

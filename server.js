@@ -6,6 +6,8 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var _ = require('underscore');
 var uploader = express.Router();
+var cfenv = require('cfenv');
+var appEnv = cfenv.getAppEnv();
 
 
 // var uploader = require('./uploader');
@@ -50,8 +52,8 @@ app.use(function(req, res, next) {
     });
   });
 
-app.set('port', 8000);
-app.set('ip', "localhost");
+app.set('port', appEnv.port);
+app.set('ip', appEnv.bind);
 app.listen(app.get('port'), app.get('ip'), function () {
     console.log('Server started on: ' + app.get('ip') + ', at port: ' + app.get('port'));
 });
